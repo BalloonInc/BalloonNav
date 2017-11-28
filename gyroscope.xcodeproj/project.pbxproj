@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					BA14FF461E88095A00ACA736 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JRS568U6JT;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -262,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JRS568U6JT;
 				INFOPLIST_FILE = gyroscope/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.ballooninc.gyroscope;
@@ -274,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JRS568U6JT;
 				INFOPLIST_FILE = gyroscope/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.ballooninc.gyroscope;
