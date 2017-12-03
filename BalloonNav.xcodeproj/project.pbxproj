@@ -3,24 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		BA14FF4B1E88095A00ACA736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14FF4A1E88095A00ACA736 /* AppDelegate.swift */; };
 		BA14FF4D1E88095A00ACA736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14FF4C1E88095A00ACA736 /* ViewController.swift */; };
 		BA14FF501E88095A00ACA736 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA14FF4E1E88095A00ACA736 /* Main.storyboard */; };
-		BA14FF531E88095A00ACA736 /* gyroscope.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA14FF511E88095A00ACA736 /* gyroscope.xcdatamodeld */; };
 		BA14FF551E88095A00ACA736 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA14FF541E88095A00ACA736 /* Assets.xcassets */; };
 		BA14FF581E88095A00ACA736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA14FF561E88095A00ACA736 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA14FF471E88095A00ACA736 /* gyroscope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gyroscope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA14FF471E88095A00ACA736 /* BalloonNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BalloonNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA14FF4A1E88095A00ACA736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA14FF4C1E88095A00ACA736 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BA14FF4F1E88095A00ACA736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BA14FF521E88095A00ACA736 /* gyroscope.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gyroscope.xcdatamodel; sourceTree = "<group>"; };
 		BA14FF541E88095A00ACA736 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA14FF571E88095A00ACA736 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA14FF591E88095A00ACA736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,7 +38,7 @@
 		BA14FF3E1E88095A00ACA736 = {
 			isa = PBXGroup;
 			children = (
-				BA14FF491E88095A00ACA736 /* gyroscope */,
+				BA14FF491E88095A00ACA736 /* BalloonNav */,
 				BA14FF481E88095A00ACA736 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +46,12 @@
 		BA14FF481E88095A00ACA736 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA14FF471E88095A00ACA736 /* gyroscope.app */,
+				BA14FF471E88095A00ACA736 /* BalloonNav.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA14FF491E88095A00ACA736 /* gyroscope */ = {
+		BA14FF491E88095A00ACA736 /* BalloonNav */ = {
 			isa = PBXGroup;
 			children = (
 				BA14FF4A1E88095A00ACA736 /* AppDelegate.swift */,
@@ -62,17 +60,16 @@
 				BA14FF541E88095A00ACA736 /* Assets.xcassets */,
 				BA14FF561E88095A00ACA736 /* LaunchScreen.storyboard */,
 				BA14FF591E88095A00ACA736 /* Info.plist */,
-				BA14FF511E88095A00ACA736 /* gyroscope.xcdatamodeld */,
 			);
-			path = gyroscope;
+			path = BalloonNav;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BA14FF461E88095A00ACA736 /* gyroscope */ = {
+		BA14FF461E88095A00ACA736 /* BalloonNav */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA14FF5C1E88095A00ACA736 /* Build configuration list for PBXNativeTarget "gyroscope" */;
+			buildConfigurationList = BA14FF5C1E88095A00ACA736 /* Build configuration list for PBXNativeTarget "BalloonNav" */;
 			buildPhases = (
 				BA14FF431E88095A00ACA736 /* Sources */,
 				BA14FF441E88095A00ACA736 /* Frameworks */,
@@ -82,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = gyroscope;
+			name = BalloonNav;
 			productName = gyroscope;
-			productReference = BA14FF471E88095A00ACA736 /* gyroscope.app */;
+			productReference = BA14FF471E88095A00ACA736 /* BalloonNav.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +92,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Pieterjan Criel";
+				ORGANIZATIONNAME = "Balloon Inc.";
 				TargetAttributes = {
 					BA14FF461E88095A00ACA736 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -104,8 +101,8 @@
 					};
 				};
 			};
-			buildConfigurationList = BA14FF421E88095A00ACA736 /* Build configuration list for PBXProject "gyroscope" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = BA14FF421E88095A00ACA736 /* Build configuration list for PBXProject "BalloonNav" */;
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -117,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA14FF461E88095A00ACA736 /* gyroscope */,
+				BA14FF461E88095A00ACA736 /* BalloonNav */,
 			);
 		};
 /* End PBXProject section */
@@ -140,7 +137,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA14FF531E88095A00ACA736 /* gyroscope.xcdatamodeld in Sources */,
 				BA14FF4D1E88095A00ACA736 /* ViewController.swift in Sources */,
 				BA14FF4B1E88095A00ACA736 /* AppDelegate.swift in Sources */,
 			);
@@ -264,9 +260,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JRS568U6JT;
-				INFOPLIST_FILE = gyroscope/Info.plist;
+				INFOPLIST_FILE = BalloonNav/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = be.ballooninc.gyroscope;
+				PRODUCT_BUNDLE_IDENTIFIER = be.ballooninc.balloonnav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -277,9 +273,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JRS568U6JT;
-				INFOPLIST_FILE = gyroscope/Info.plist;
+				INFOPLIST_FILE = BalloonNav/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = be.ballooninc.gyroscope;
+				PRODUCT_BUNDLE_IDENTIFIER = be.ballooninc.balloonnav;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -288,7 +284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA14FF421E88095A00ACA736 /* Build configuration list for PBXProject "gyroscope" */ = {
+		BA14FF421E88095A00ACA736 /* Build configuration list for PBXProject "BalloonNav" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA14FF5A1E88095A00ACA736 /* Debug */,
@@ -297,28 +293,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA14FF5C1E88095A00ACA736 /* Build configuration list for PBXNativeTarget "gyroscope" */ = {
+		BA14FF5C1E88095A00ACA736 /* Build configuration list for PBXNativeTarget "BalloonNav" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA14FF5D1E88095A00ACA736 /* Debug */,
 				BA14FF5E1E88095A00ACA736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BA14FF511E88095A00ACA736 /* gyroscope.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BA14FF521E88095A00ACA736 /* gyroscope.xcdatamodel */,
-			);
-			currentVersion = BA14FF521E88095A00ACA736 /* gyroscope.xcdatamodel */;
-			path = gyroscope.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BA14FF3F1E88095A00ACA736 /* Project object */;
 }

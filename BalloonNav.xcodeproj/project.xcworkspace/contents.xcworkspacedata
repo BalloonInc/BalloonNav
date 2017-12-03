@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:gyroscope.xcodeproj">
+      location = "self:/Users/wouter/dev/gpsacc/BalloonNav.xcodeproj">
    </FileRef>
 </Workspace>
